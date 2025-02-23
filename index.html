@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Типы данных в JS</title>
+</head>
+<body>
+<h1>Открой консоль, чтобы увидеть типы данных</h1>
+<script>
+
+    console.log("String:", typeof "Hello, World!");
+    console.log("Number:", typeof 42);
+    console.log("BigInt:", typeof 9007199254740991n);
+    console.log("Boolean:", typeof true);
+    console.log("Undefined:", typeof undefined);
+    console.log("Null:", typeof null); // Особенность JS: typeof null возвращает "object"
+    console.log("Symbol:", typeof Symbol("id"));
+
+    console.log("Object:", typeof { name: "Alice", age: 25 });
+    console.log("Array:", typeof [1, 2, 3]);
+    console.log("Function:", typeof function() {});
+    console.log("Date:", typeof new Date());
+
+</script>
+</body>
+</html>
